@@ -39,3 +39,5 @@ if (isCIBuild) {
         }
     }
 }
+include 'source-sink-test'
+

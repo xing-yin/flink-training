@@ -38,6 +38,7 @@ import java.util.Objects;
  * location - the latitude of the start location - the longitude of the end location - the latitude
  * of the end location - the passengerCnt of the ride - the taxiId - the driverId
  */
+// 出租车车程(taxi ride)事件结构
 public class TaxiRide implements Comparable<TaxiRide>, Serializable {
 
     /** Creates a new TaxiRide with now as start and end time. */
